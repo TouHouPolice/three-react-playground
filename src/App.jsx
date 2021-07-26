@@ -110,7 +110,7 @@ function App() {
 
   return (
     <div className="App">
-      <Canvas>
+      <Canvas className="three-canvas">
         <Suspense fallback={null}>
         <Scene/>
         </Suspense>
